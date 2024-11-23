@@ -8,7 +8,7 @@
         <a href="{{ route('pets.create') }}" class="btn btn-primary">Agregar mascota</a>
     </div>
 
-    <div class="row mt-4">
+    <div class="row mt-4">  
         @forelse($pets as $pet)
             <div class="col-md-4 mb-4">
                 <div class="card">

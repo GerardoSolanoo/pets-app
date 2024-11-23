@@ -44,7 +44,7 @@ class PetController extends Controller
             'race' => $request->race,
             'owner_name' => $request->owner_name,
             'phone_number' => $request->phone_number,
-            'image' => $imagePath ?? null, 
+            'image' => $imagePath, 
         ]);
 
         return redirect()->route('pets.index')->with('success', 'Mascota creada con éxito.');
