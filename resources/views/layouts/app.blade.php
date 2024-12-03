@@ -35,6 +35,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a href="{{ route('vaccines.index') }}" class="nav-link text-white">
+                                <i class="fi fi-rr-syringe"></i> <span>Vacunas</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ route('trashed.index') }}" class="nav-link text-white">
                                 <i class="fi fi-rr-recycle"></i><span>Eliminados</span>
                             </a>
